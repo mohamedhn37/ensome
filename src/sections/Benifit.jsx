@@ -8,12 +8,12 @@ import { FaBrain, FaCompressArrowsAlt, FaKey } from 'react-icons/fa'
 const Benifit = () => {
   return (
     <>
-        <div className="container-fluid my-5">
-            <div className="row align-items-center">
+        <div className="container-fluid my-5 benefit">
+            <div className="row align-items-center m-auto">
                 <div className="col-md-6">
                     <Image src={benifit} alt="logo" width={540} height={358}/>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-6">
                     <TitleHead title="The benefits of Ensome"/>
                     <div className="row">
                         <div className="col-md-12">

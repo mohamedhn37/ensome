@@ -6,8 +6,8 @@ const Pricing = () => {
   return (
     <>
         <div className="container my-5">
-            <div className="row">
-                <div className="col-md-12 d-flex justify-content-between">
+            <div className="row m-auto">
+                <div className="col-md-12 d-flex justify-content-between pricingproposition">
                   <TitleHead title="Our pricing"/>
                   <div className='PricingShow'>
                         <button className='btn btn-primary rounded-pill'>Monthly</button>
@@ -15,7 +15,7 @@ const Pricing = () => {
                   </div>
                 </div>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-4 g-3">
                 <div className="col-md-4">
                     <div className="card shadow bg-body-tertiary rounded CardPricing">
                         <div className="card-body">

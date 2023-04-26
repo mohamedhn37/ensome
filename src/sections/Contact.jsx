@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
     <div className="container-fluid contact" id='Contact'>
-        <div className="row">
+        <div className="row m-auto">
             <div className="col-md-6">
                 <TitleHead title="Contact information"/> 
                 <p className='col-grey my-4'>Fill up the form and our Team will get back to you with 25 hours.</p>

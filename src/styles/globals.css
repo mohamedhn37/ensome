@@ -85,6 +85,9 @@ html{
 .sectionhead p {
   color: var(--col-grey-second);
 }
+.home{
+  padding: 40px;
+}
 .sectiontitle{
   width: 70%;
   font-weight: bold;
@@ -155,3 +158,66 @@ html{
 }
 
 /*main*/
+/* -------------------------responsive----------------------- */
+@media (max-width: 576px){
+ .sectiontitle{
+  width: 100%;
+ }  
+ .home .firstrow{
+  flex-direction: column-reverse;
+} 
+ .pricingproposition{
+  flex-direction: column;
+  align-items: end;
+ }
+ .contact{
+  padding: 30px;
+ }
+ .contact .row .col-md-6:nth-child(2){
+  display: none;
+ }
+ .footer .copyright .privacy{
+  display: none;
+}
+}
+
+@media (max-width: 1200px){
+ .home {
+  padding: 40px 0;
+ }   
+ .home .row img{
+  width: 328px;
+  height: 170px;
+  margin-bottom: 20px;
+ }   
+ .benefit img {
+  width: 325px;
+  height: 220px;
+  margin-bottom: 20px;
+ }
+ .partenaire img{
+  width: 92px;
+  height: 65px;
+ }
+
+}
+@media (min-width: 1200px){
+ 
+ .home .row img{
+  width: 540px;
+  height: 358px;
+  margin-bottom: 20px;
+ }   
+ .benefit img {
+  width: 540px;
+  height: 358px;
+  margin-bottom: 20px;
+ }
+ .partenaire img{
+  width: 180px;
+  height: 132px;
+ }
+
+}
+/* -------------------------responsive----------------------- */
+
