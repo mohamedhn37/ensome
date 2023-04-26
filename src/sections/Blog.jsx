@@ -20,7 +20,7 @@ const Blog = () => {
         <div className="container my-4">
             <div className="row my-3">
                 <div className="col-md-12">
-                    <TitleHead title="Ensome blog" className='sectiontitle'/>
+                    <TitleHead title="Ensome blog"/>
                 </div>
             </div>
             <div className="row">

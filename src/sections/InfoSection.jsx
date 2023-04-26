@@ -1,4 +1,4 @@
-import TitleHead from '@/components/titleHead'
+import TitleHead from '@/components/TitleHead'
 import React from 'react'
 import staff1 from '../img/equipe1.png' 
 import staff2 from '../img/equipe2.png' 
@@ -10,7 +10,7 @@ const InfoSection = () => {
     <div className="container-fluid bg-light p-5 mb-5">
         <div className="row justify-content-center align-items-center">
             <div className="col-md-6">
-                <TitleHead title="The newest business analytics platform" className='sectiontitle' />
+                <TitleHead title="The newest business analytics platform" />
                 <p className='col-grey'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 <button className='btn btn-primary shadow'>Learn more</button>
             </div>

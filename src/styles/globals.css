@@ -86,7 +86,7 @@ html{
   color: var(--col-grey-second);
 }
 .sectiontitle{
-  width: 65%;
+  width: 70%;
   font-weight: bold;
 }
 .sectiontitle::after{

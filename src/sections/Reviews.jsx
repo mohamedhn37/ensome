@@ -14,7 +14,7 @@ const Reviews = () => {
     <>
       <div className="container-fluid my-5 p-5 reviews">
         <div className="row">
-          <TitleHead title="What our customers say" className="sectiontitle" />
+          <TitleHead title="What our customers say"/>
         </div>
         <div className="row">
           <div className="col-md-6 offset-md-3">

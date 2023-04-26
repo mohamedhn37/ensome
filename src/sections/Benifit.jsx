@@ -14,7 +14,7 @@ const Benifit = () => {
                     <Image src={benifit} alt="logo" width={540} height={358}/>
                 </div>
                 <div className="col-md-4">
-                    <TitleHead title="The benefits of Ensome" className='sectiontitle w-100'/>
+                    <TitleHead title="The benefits of Ensome"/>
                     <div className="row">
                         <div className="col-md-12">
                             <h6><FaBrain className='me-3 text-primary'/>Machine learning</h6>

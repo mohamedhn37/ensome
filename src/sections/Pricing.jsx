@@ -8,7 +8,7 @@ const Pricing = () => {
         <div className="container my-5">
             <div className="row">
                 <div className="col-md-12 d-flex justify-content-between">
-                  <TitleHead title="Our pricing" className='sectiontitle'/>
+                  <TitleHead title="Our pricing"/>
                   <div className='PricingShow'>
                         <button className='btn btn-primary rounded-pill'>Monthly</button>
                         <button className='btn btn-info rounded-pill'>Yearly</button>

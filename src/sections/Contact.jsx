@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="container-fluid contact" id='Contact'>
         <div className="row">
             <div className="col-md-6">
-                <TitleHead title="Contact information" className='sectiontitle'/> 
+                <TitleHead title="Contact information"/> 
                 <p className='col-grey my-4'>Fill up the form and our Team will get back to you with 25 hours.</p>
                 <ul className='list-unstyled'>
                         <li className='my-2'>
